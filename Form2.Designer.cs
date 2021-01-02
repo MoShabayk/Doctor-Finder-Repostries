@@ -29,111 +29,113 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.button7 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOptometrist = new System.Windows.Forms.Button();
+            this.btnPediatrician = new System.Windows.Forms.Button();
+            this.btnGeneral = new System.Windows.Forms.Button();
+            this.btnRadiologist = new System.Windows.Forms.Button();
+            this.btnInternist = new System.Windows.Forms.Button();
+            this.btnDentist = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button7
+            // btnOptometrist
             // 
-            this.button7.BackColor = System.Drawing.Color.CadetBlue;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(400, 372);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(137, 65);
-            this.button7.TabIndex = 25;
-            this.button7.Text = "Optometrist";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnOptometrist.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnOptometrist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOptometrist.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnOptometrist.Location = new System.Drawing.Point(350, 372);
+            this.btnOptometrist.Name = "btnOptometrist";
+            this.btnOptometrist.Size = new System.Drawing.Size(120, 65);
+            this.btnOptometrist.TabIndex = 25;
+            this.btnOptometrist.Text = "Optometrist";
+            this.btnOptometrist.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnPediatrician
             // 
-            this.button5.BackColor = System.Drawing.Color.CadetBlue;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(226, 372);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(137, 65);
-            this.button5.TabIndex = 24;
-            this.button5.Text = "pediatrician";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnPediatrician.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnPediatrician.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPediatrician.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnPediatrician.Location = new System.Drawing.Point(198, 372);
+            this.btnPediatrician.Name = "btnPediatrician";
+            this.btnPediatrician.Size = new System.Drawing.Size(120, 65);
+            this.btnPediatrician.TabIndex = 24;
+            this.btnPediatrician.Text = "pediatrician";
+            this.btnPediatrician.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnGeneral
             // 
-            this.button4.BackColor = System.Drawing.Color.CadetBlue;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(492, 283);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(137, 65);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "General";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnGeneral.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnGeneral.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGeneral.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnGeneral.Location = new System.Drawing.Point(430, 283);
+            this.btnGeneral.Name = "btnGeneral";
+            this.btnGeneral.Size = new System.Drawing.Size(120, 65);
+            this.btnGeneral.TabIndex = 23;
+            this.btnGeneral.Text = "General";
+            this.btnGeneral.UseVisualStyleBackColor = false;
+            this.btnGeneral.Click += new System.EventHandler(this.btnGeneral_Click);
             // 
-            // button3
+            // btnRadiologist
             // 
-            this.button3.BackColor = System.Drawing.Color.CadetBlue;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(689, 283);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 65);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Radiologist";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnRadiologist.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnRadiologist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRadiologist.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnRadiologist.Location = new System.Drawing.Point(603, 283);
+            this.btnRadiologist.Name = "btnRadiologist";
+            this.btnRadiologist.Size = new System.Drawing.Size(120, 65);
+            this.btnRadiologist.TabIndex = 22;
+            this.btnRadiologist.Text = "Radiologist";
+            this.btnRadiologist.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnInternist
             // 
-            this.button2.BackColor = System.Drawing.Color.CadetBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(588, 372);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 65);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Internist";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnInternist.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnInternist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInternist.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnInternist.Location = new System.Drawing.Point(514, 372);
+            this.btnInternist.Name = "btnInternist";
+            this.btnInternist.Size = new System.Drawing.Size(120, 65);
+            this.btnInternist.TabIndex = 21;
+            this.btnInternist.Text = "Internist";
+            this.btnInternist.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnDentist
             // 
-            this.button1.BackColor = System.Drawing.Color.CadetBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(767, 372);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 65);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Dentist";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnDentist.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnDentist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDentist.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnDentist.Location = new System.Drawing.Point(671, 372);
+            this.btnDentist.Name = "btnDentist";
+            this.btnDentist.Size = new System.Drawing.Size(120, 65);
+            this.btnDentist.TabIndex = 20;
+            this.btnDentist.Text = "Dentist";
+            this.btnDentist.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.CadetBlue;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(287, 283);
+            this.button6.Location = new System.Drawing.Point(251, 283);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(137, 65);
+            this.button6.Size = new System.Drawing.Size(120, 65);
             this.button6.TabIndex = 19;
             this.button6.Text = "Surgeon";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.btnSurgeon_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1118, 481);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(978, 481);
+            this.Controls.Add(this.btnOptometrist);
+            this.Controls.Add(this.btnPediatrician);
+            this.Controls.Add(this.btnGeneral);
+            this.Controls.Add(this.btnRadiologist);
+            this.Controls.Add(this.btnInternist);
+            this.Controls.Add(this.btnDentist);
             this.Controls.Add(this.button6);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -144,12 +146,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOptometrist;
+        private System.Windows.Forms.Button btnPediatrician;
+        private System.Windows.Forms.Button btnGeneral;
+        private System.Windows.Forms.Button btnRadiologist;
+        private System.Windows.Forms.Button btnInternist;
+        private System.Windows.Forms.Button btnDentist;
         private System.Windows.Forms.Button button6;
     }
 }

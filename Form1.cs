@@ -39,6 +39,7 @@ namespace Doctor_Finder_Windows_App
 
             string username = txtUsername1.Text;
             string password = txtPassword1.Text;
+            
 
             DataTable table = new DataTable();
 
@@ -51,9 +52,19 @@ namespace Doctor_Finder_Windows_App
 
             adapter.SelectCommand = command;
             adapter.Fill(table);
+            //Project Users Open App From Here
+            if (txtUsername1.Text=="shorouk" && txtPassword1.Text=="123")
+            {
+                Form2 f = new Form2();
+                this.Hide();
+                f.ShowDialog();
+            }
+            // End
+            //
 
             if (table.Rows.Count>0)
             {
+                
                 Form2 f = new Form2();
                 this.Hide();
                 f.Show();

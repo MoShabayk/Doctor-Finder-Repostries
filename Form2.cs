@@ -20,14 +20,14 @@ namespace Doctor_Finder_Windows_App
         private void btnSurgeon_Click(object sender, EventArgs e)
         {
             SurgeonForm sf = new SurgeonForm();
-            this.Close();
+            this.Hide();
             sf.ShowDialog();
         }
 
         private void btnGeneral_Click(object sender, EventArgs e)
         {
             GeneralForm gf = new GeneralForm();
-            this.Close();
+            this.Hide();
             gf.ShowDialog();
 
         }
@@ -35,35 +35,35 @@ namespace Doctor_Finder_Windows_App
         private void btnRadiologist_Click(object sender, EventArgs e)
         {
             RadiologistForm rf = new RadiologistForm();
-            this.Close();
+            this.Hide();
             rf.ShowDialog();
         }
 
         private void btnpediatrician_Click(object sender, EventArgs e)
         {
             PediatricianForm pf = new PediatricianForm();
-            this.Close();
+            this.Hide();
             pf.ShowDialog();
         }
 
         private void btnOptometrist_Click(object sender, EventArgs e)
         {
             OptometristForm of = new OptometristForm();
-            this.Close();
+            this.Hide();
             of.ShowDialog();
         }
 
         private void btnInternhist_Click(object sender, EventArgs e)
         {
             InternhistForm inf = new InternhistForm();
-            this.Close();
+            this.Hide();
             inf.ShowDialog();
         }
 
         private void btnDentist_Click(object sender, EventArgs e)
         {
             DentistForm df = new DentistForm();
-            this.Close();
+            this.Hide();
             df.ShowDialog();
         }
 
@@ -71,5 +71,7 @@ namespace Doctor_Finder_Windows_App
         {
 
         }
+
+       
     }
 }

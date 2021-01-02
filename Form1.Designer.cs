@@ -58,7 +58,7 @@
             // 
             // pictureBox1
             // 
-           // this.pictureBox1.BackgroundImage = global::Doctor_Finder_Windows_App.Resource1.basic_login_form_Free19_05_2017_1315571736___Copy;
+            
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(179, 13);
             this.pictureBox1.Name = "pictureBox1";
@@ -121,7 +121,7 @@
             // 
             // pictureBox2
             // 
-            // this.pictureBox2.BackgroundImage = global::Doctor_Finder_Windows_App.Resource1.basic_login_form_Free19_05_2017_1315571736___Copy_pngg;
+           
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(703, 140);
             this.pictureBox2.Name = "pictureBox2";

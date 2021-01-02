@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignupFrom));
             this.label1 = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
@@ -52,10 +51,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.CadetBlue;
+            this.label1.BackColor = System.Drawing.Color.LightBlue;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(311, 21);
+            this.label1.Location = new System.Drawing.Point(12, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(321, 24);
             this.label1.TabIndex = 0;
@@ -63,41 +62,41 @@
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(232, 88);
+            this.txtFirstName.Location = new System.Drawing.Point(203, 88);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(161, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(141, 24);
             this.txtFirstName.TabIndex = 5;
             this.txtFirstName.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(620, 88);
+            this.txtLastName.Location = new System.Drawing.Point(574, 88);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(163, 22);
+            this.txtLastName.Size = new System.Drawing.Size(143, 24);
             this.txtLastName.TabIndex = 6;
             this.txtLastName.TextChanged += new System.EventHandler(this.txtPassword2_TextChanged);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(278, 189);
+            this.txtPassword.Location = new System.Drawing.Point(437, 185);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(187, 22);
+            this.txtPassword.Size = new System.Drawing.Size(164, 24);
             this.txtPassword.TabIndex = 7;
             // 
             // txtMobileNumber
             // 
-            this.txtMobileNumber.Location = new System.Drawing.Point(499, 136);
+            this.txtMobileNumber.Location = new System.Drawing.Point(437, 136);
             this.txtMobileNumber.Name = "txtMobileNumber";
-            this.txtMobileNumber.Size = new System.Drawing.Size(187, 22);
+            this.txtMobileNumber.Size = new System.Drawing.Size(164, 24);
             this.txtMobileNumber.TabIndex = 10;
             this.txtMobileNumber.TextChanged += new System.EventHandler(this.txtConfirmPassword_TextChanged);
             // 
             // btnSignup1
             // 
             this.btnSignup1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignup1.Location = new System.Drawing.Point(376, 381);
+            this.btnSignup1.Location = new System.Drawing.Point(329, 381);
             this.btnSignup1.Name = "btnSignup1";
-            this.btnSignup1.Size = new System.Drawing.Size(123, 38);
+            this.btnSignup1.Size = new System.Drawing.Size(108, 38);
             this.btnSignup1.TabIndex = 11;
             this.btnSignup1.Text = "Submit";
             this.btnSignup1.UseVisualStyleBackColor = true;
@@ -106,9 +105,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.CadetBlue;
+            this.label2.BackColor = System.Drawing.Color.SkyBlue;
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(66, 88);
+            this.label2.Location = new System.Drawing.Point(58, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 24);
             this.label2.TabIndex = 12;
@@ -117,9 +116,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.CadetBlue;
+            this.label3.BackColor = System.Drawing.Color.SkyBlue;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(455, 88);
+            this.label3.Location = new System.Drawing.Point(398, 88);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 24);
             this.label3.TabIndex = 13;
@@ -128,9 +127,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.CadetBlue;
+            this.label4.BackColor = System.Drawing.Color.SkyBlue;
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(66, 136);
+            this.label4.Location = new System.Drawing.Point(58, 136);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(339, 24);
             this.label4.TabIndex = 14;
@@ -139,9 +138,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.CadetBlue;
+            this.label5.BackColor = System.Drawing.Color.SkyBlue;
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(71, 185);
+            this.label5.Location = new System.Drawing.Point(239, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(158, 24);
             this.label5.TabIndex = 15;
@@ -155,10 +154,9 @@
             this.toolStripComboBox1,
             this.toolStripComboBox2,
             this.toolStripComboBox3});
-            this.menuStrip1.Location = new System.Drawing.Point(278, 232);
+            this.menuStrip1.Location = new System.Drawing.Point(243, 232);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(429, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(377, 35);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -199,7 +197,7 @@
             "30",
             "31"});
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(138, 31);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 31);
             this.toolStripComboBox1.Text = "Day";
             // 
             // toolStripComboBox2
@@ -219,7 +217,7 @@
             "11",
             "12"});
             this.toolStripComboBox2.Name = "toolStripComboBox2";
-            this.toolStripComboBox2.Size = new System.Drawing.Size(138, 31);
+            this.toolStripComboBox2.Size = new System.Drawing.Size(121, 31);
             this.toolStripComboBox2.Text = "Month";
             // 
             // toolStripComboBox3
@@ -269,15 +267,15 @@
             "2020",
             "2021"});
             this.toolStripComboBox3.Name = "toolStripComboBox3";
-            this.toolStripComboBox3.Size = new System.Drawing.Size(138, 31);
+            this.toolStripComboBox3.Size = new System.Drawing.Size(121, 31);
             this.toolStripComboBox3.Text = "Year";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.CadetBlue;
+            this.label6.BackColor = System.Drawing.Color.SkyBlue;
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(66, 232);
+            this.label6.Location = new System.Drawing.Point(58, 232);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(139, 24);
             this.label6.TabIndex = 17;
@@ -286,9 +284,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.CadetBlue;
+            this.label7.BackColor = System.Drawing.Color.SkyBlue;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(71, 307);
+            this.label7.Location = new System.Drawing.Point(62, 307);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 24);
             this.label7.TabIndex = 18;
@@ -301,19 +299,19 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(278, 307);
+            this.comboBox1.Location = new System.Drawing.Point(243, 307);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 29);
+            this.comboBox1.Size = new System.Drawing.Size(121, 29);
             this.comboBox1.TabIndex = 19;
             this.comboBox1.Text = "Type";
             // 
             // SignupFrom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(960, 463);
+            this.ClientSize = new System.Drawing.Size(840, 463);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
