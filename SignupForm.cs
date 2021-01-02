@@ -49,7 +49,7 @@ namespace Doctor_Finder_Windows_App
                     // execute the query
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        MessageBox.Show("Account Created Successfully","",MessageBoxButtons.OK   ,MessageBoxIcon.Information);
+                        MessageBox.Show("Account Created");
                     }
                     else
                     {
