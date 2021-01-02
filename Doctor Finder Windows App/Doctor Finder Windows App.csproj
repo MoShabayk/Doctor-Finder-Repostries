@@ -67,19 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
-    <Compile Include="dbcontrol.cs" />
-    <Compile Include="General.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="General.Designer.cs">
-      <DependentUpon>General.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dentist.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dentist.Designer.cs">
-      <DependentUpon>Dentist.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,81 +79,101 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Internist.cs">
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SignupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Internist.Designer.cs">
-      <DependentUpon>Internist.cs</DependentUpon>
+    <Compile Include="SignupForm.Designer.cs">
+      <DependentUpon>SignupForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Optometrist.cs">
+    <Compile Include="GeneralForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Optometrist.Designer.cs">
-      <DependentUpon>Optometrist.cs</DependentUpon>
+    <Compile Include="GeneralForm.Designer.cs">
+      <DependentUpon>GeneralForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pediatrician.cs">
+    <Compile Include="DentistForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pediatrician.Designer.cs">
-      <DependentUpon>Pediatrician.cs</DependentUpon>
+    <Compile Include="DentistForm.Designer.cs">
+      <DependentUpon>DentistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternhistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternhistForm.Designer.cs">
+      <DependentUpon>InternhistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptometristForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptometristForm.Designer.cs">
+      <DependentUpon>OptometristForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PediatricianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PediatricianForm.Designer.cs">
+      <DependentUpon>PediatricianForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Radiologist.cs">
+    <Compile Include="RadiologistForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Radiologist.Designer.cs">
-      <DependentUpon>Radiologist.cs</DependentUpon>
+    <Compile Include="RadiologistForm.Designer.cs">
+      <DependentUpon>RadiologistForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Surgeon.cs">
+    <Compile Include="SurgeonForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Surgeon.Designer.cs">
-      <DependentUpon>Surgeon.cs</DependentUpon>
+    <Compile Include="SurgeonForm.Designer.cs">
+      <DependentUpon>SurgeonForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="General.resx">
-      <DependentUpon>General.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dentist.resx">
-      <DependentUpon>Dentist.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Internist.resx">
-      <DependentUpon>Internist.cs</DependentUpon>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Optometrist.resx">
-      <DependentUpon>Optometrist.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pediatrician.resx">
-      <DependentUpon>Pediatrician.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
+    <EmbeddedResource Include="Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Radiologist.resx">
-      <DependentUpon>Radiologist.cs</DependentUpon>
+    <EmbeddedResource Include="SignupForm.resx">
+      <DependentUpon>SignupForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Surgeon.resx">
-      <DependentUpon>Surgeon.cs</DependentUpon>
+    <EmbeddedResource Include="GeneralForm.resx">
+      <DependentUpon>GeneralForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DentistForm.resx">
+      <DependentUpon>DentistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternhistForm.resx">
+      <DependentUpon>InternhistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptometristForm.resx">
+      <DependentUpon>OptometristForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PediatricianForm.resx">
+      <DependentUpon>PediatricianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadiologistForm.resx">
+      <DependentUpon>RadiologistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurgeonForm.resx">
+      <DependentUpon>SurgeonForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -175,28 +182,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.pngg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8035cceb-7649-47e0-8441-daf740a885fb1.jpg" />
-    <None Include="Resources\8035cceb-7649-47e0-8441-daf740a885fb.jpg" />
-    <None Include="Resources\report-3324170_960_720.jpg" />
-    <None Include="Resources\82115571-doctor-tools-on-blue-surface-.jpg" />
-    <None Include="Resources\download.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -212,6 +197,27 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82115571-doctor-tools-on-blue-surface-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3324170_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8035cceb-7649-47e0-8441-daf740a885fb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.pngg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

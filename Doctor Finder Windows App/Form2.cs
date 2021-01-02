@@ -17,53 +17,59 @@ namespace Doctor_Finder_Windows_App
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btnSurgeon_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Surgeon sur = new Surgeon();
-            sur.ShowDialog();
+            SurgeonForm sf = new SurgeonForm();
+            this.Close();
+            sf.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnGeneral_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Dentist1 Gen = new Dentist1();
-            Gen.ShowDialog();
+            GeneralForm gf = new GeneralForm();
+            this.Close();
+            gf.ShowDialog();
+
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnRadiologist_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Radiologist rad = new Radiologist();
-            rad.ShowDialog();
+            RadiologistForm rf = new RadiologistForm();
+            this.Close();
+            rf.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnpediatrician_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Pediatrician Ped = new Pediatrician();
-            Ped.ShowDialog();
+            PediatricianForm pf = new PediatricianForm();
+            this.Close();
+            pf.ShowDialog();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btnOptometrist_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Optometrist opt = new Optometrist();
-            opt.ShowDialog();
+            OptometristForm of = new OptometristForm();
+            this.Close();
+            of.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnInternhist_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Internist intt = new Internist();
-            intt.ShowDialog();
+            InternhistForm inf = new InternhistForm();
+            this.Close();
+            inf.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnDentist_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Dentist dent = new Dentist();
-            dent.ShowDialog();
+            DentistForm df = new DentistForm();
+            this.Close();
+            df.ShowDialog();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
