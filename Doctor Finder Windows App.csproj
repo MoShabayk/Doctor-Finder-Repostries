@@ -199,25 +199,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\82115571-doctor-tools-on-blue-surface-.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\report-3324170_960_720.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8035cceb-7649-47e0-8441-daf740a885fb.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736 - Copy.pngg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basic_login_form_Free19-05-2017_1315571736.jpg" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

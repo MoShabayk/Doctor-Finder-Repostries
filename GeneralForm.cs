@@ -16,5 +16,10 @@ namespace Doctor_Finder_Windows_App
         {
             InitializeComponent();
         }
+
+        private void GeneralForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
