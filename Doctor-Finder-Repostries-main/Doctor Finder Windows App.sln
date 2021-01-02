@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doctor Finder Windows App", "Doctor Finder Windows App.csproj", "{AB78531A-0CD2-45E8-A8F3-486C2B66A667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB78531A-0CD2-45E8-A8F3-486C2B66A667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB78531A-0CD2-45E8-A8F3-486C2B66A667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB78531A-0CD2-45E8-A8F3-486C2B66A667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB78531A-0CD2-45E8-A8F3-486C2B66A667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BB64BDF-B302-4B37-8702-580595870144}
+	EndGlobalSection
+EndGlobal
